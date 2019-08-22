@@ -64,7 +64,7 @@ public class Stepdefs {
 
         try {
             //read in config file
-            BufferedReader br = new BufferedReader(new FileReader("config2.json"));
+            BufferedReader br = new BufferedReader(new FileReader("config.json"));
             StringBuilder sb = new StringBuilder();
             String line = br.readLine();
             while (line != null) {
